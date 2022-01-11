@@ -9,6 +9,21 @@ updates:
     directory: '/' # Location of package manifests
     schedule:
       interval: 'daily'
+    assignees:
+      - 'LordRonz'
+    reviewers:
+      - 'LordRonz'
+    commit-message:
+      prefix: 'chore(deps): '
+    labels:
+      - 'dependencies'
+
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    assignees:
+      - 'LordRonz'
     reviewers:
       - 'LordRonz'
     commit-message:
